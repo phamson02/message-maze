@@ -1,0 +1,50 @@
+/* General styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #222;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.navbar {
+    background-color: #000;
+    border-bottom: 3px solid #00ffff;
+}
+
+/* Form styles */
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #00ffff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #00cccc;
+    color: #000;
+}
+
+/* Canvas container styles */
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.canvas-box {
+    position: relative;
+    background-color: #000;
+    border: 2px solid #00ffff;
+    padding: 8px;
+}

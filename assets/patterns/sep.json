@@ -1,0 +1,189 @@
+{
+  "cols": 1,
+  "rows": 13,
+  "start": [
+    0,
+    10
+  ],
+  "end": [
+    0,
+    10
+  ],
+  "grid": [
+    [
+      {
+        "i": 0,
+        "j": 0,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ],
+    [
+      {
+        "i": 0,
+        "j": 1,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ],
+    [
+      {
+        "i": 0,
+        "j": 2,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ],
+    [
+      {
+        "i": 0,
+        "j": 3,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ],
+    [
+      {
+        "i": 0,
+        "j": 4,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ],
+    [
+      {
+        "i": 0,
+        "j": 5,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ],
+    [
+      {
+        "i": 0,
+        "j": 6,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ],
+    [
+      {
+        "i": 0,
+        "j": 7,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ],
+    [
+      {
+        "i": 0,
+        "j": 8,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ],
+    [
+      {
+        "i": 0,
+        "j": 9,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ],
+    [
+      {
+        "i": 0,
+        "j": 10,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ],
+    [
+      {
+        "i": 0,
+        "j": 11,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ],
+    [
+      {
+        "i": 0,
+        "j": 12,
+        "walls": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "visited": false
+      }
+    ]
+  ],
+  "solutionCells": [
+    [
+      0,
+      10
+    ]
+  ]
+}

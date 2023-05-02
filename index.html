@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Maze Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+</head>
+
+<body>
+    <script src="js/cell.js"></script>
+    <script src="js/maze.js"></script>
+    <script src="js/generate.js"></script>
+    <script src="js/sketch.js"></script>
+    <script src="js/formatInput.js"></script>
+    <script src="js/combine.js"></script>
+    <script src="js/random.js"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Maze Generator</a>
+    </nav>
+
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col text-center">
+                <h1>Maze Generator</h1>
+                <p class="lead mt-3">
+                    Welcome to the Maze Generator! Enter your text message below, and a maze will be generated based
+                    on your input. For now, the input text message should only contain letters.
+                </p>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="input-text"
+                        placeholder="Enter your text message here...">
+                </div>
+                <button class="btn btn-primary mb-3" id="generate-btn">Generate Maze</button>
+                <div id="canvas-container" class="mt-4">
+                    <!-- The canvases will be placed here -->
+                    <p id="loading-text" style="display: none;">Generating maze, please wait...</p>
+                    <div id="maze-container" class="canvas-box" style="display: none;"></div>
+                    <div id="solution-container" class="canvas-box" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container text-center">
+        <hr>
+        <p class="retro">This site is shipped with the help of GPT-4 through 131+ exchanges</p>
+        <p class="retro">
+            Check out the source code on
+            <a href="https://github.com/phamson02/message-maze" target="_blank">GitHub</a>.
+        </p>
+    </footer>
+</body>
+
+</html>
