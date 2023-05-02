@@ -62,7 +62,7 @@ function makeRow(charMazesList, start, end, lineWidth) {
     return row;
 }
 
-function rBFS(maze, reduced = 13 / 16) {
+function rBFS(maze, reduced = 10 / 16) {
     const n = maze.rows;
     const m = maze.cols;
     let queue = [];
@@ -78,9 +78,13 @@ function rBFS(maze, reduced = 13 / 16) {
         }
     }
 
+    console.log(queue.length);
+
     shuffle(queue, true);
     const savedQueue = queue.splice(0, Math.floor(reduced * queue.length));
     queue = queue.slice(Math.floor(reduced * queue.length));
+
+    console.log(queue.length);
 
     const parent = new Map();
     while (visitedPath.size < n * m) {
