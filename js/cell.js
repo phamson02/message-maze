@@ -61,7 +61,7 @@ class Cell {
         let y = this.j * cellSize;
 
         p.stroke(255);
-        p.strokeWeight(4);
+        p.strokeWeight(2);
         if (this.walls[0]) {
             p.line(x, y, x + cellSize, y);
         }

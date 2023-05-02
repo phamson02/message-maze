@@ -62,7 +62,7 @@ function makeRow(charMazesList, start, end, lineWidth) {
     return row;
 }
 
-function rBFS(maze, reduced = 10 / 16) {
+function rBFS(maze, reduced = 8 / 16) {
     const n = maze.rows;
     const m = maze.cols;
     let queue = [];
